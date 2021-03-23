@@ -2,7 +2,7 @@
 
 namespace ForTheTeam
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -27,12 +27,12 @@ namespace ForTheTeam
             Console.WriteLine(LegitBirthYear(year) ? GetPossibleAge(year) : "I don't believe you!!");
         }
 
-        private string GetPossibleAge(int year)
+        public string GetPossibleAge(int year)
         {
             return $"I guess you could be around {DateTime.Now.Year - year} years old";
         }
 
-        private bool LegitBirthYear(int year)
+        public bool LegitBirthYear(int year)
         {
             var currentYear = DateTime.Now.Year;
             if (year > currentYear) return false;
@@ -40,7 +40,7 @@ namespace ForTheTeam
             return true;
         }
 
-        private (int, string) GetYear(string yearAsString)
+        public (int, string) GetYear(string yearAsString)
         {
             if (string.IsNullOrEmpty(yearAsString)) return (0, "This is null");
 
