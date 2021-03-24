@@ -32,7 +32,7 @@ namespace ForTheTeam.Test
         {
             var test = new Program();
             var result  = test.GetYear("2020");
-            Assert.That(result.Item1, Is.EqualTo(1000));
+            Assert.That(result.Item1, Is.EqualTo(2020));
             Assert.That(result.Item2, Is.Empty);
         }
     }
