@@ -458,6 +458,12 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "OctoPack/3.6.5": {
+        "type": "package",
+        "build": {
+          "build/OctoPack.targets": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1910,6 +1916,30 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "OctoPack/3.6.5": {
+      "sha512": "aZQvSjZarPYLSOHDSgzI8ecRBVVRAOIJBIwcAR94gTp2HcdC+30M97uE+sIiErHKfxw9XPrOFIIG2WMmNZVyCw==",
+      "type": "package",
+      "path": "octopack/3.6.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/NuGet.exe",
+        "build/NuGet.exe.config",
+        "build/NuGet.exe.readme.txt",
+        "build/OctoPack.Tasks.dll",
+        "build/OctoPack.Tasks.pdb",
+        "build/OctoPack.targets",
+        "lib/net35/_._",
+        "lib/net40/_._",
+        "lib/netcore45/_._",
+        "license.txt",
+        "octopack.3.6.5.nupkg.sha512",
+        "octopack.nuspec",
+        "tools/Install.ps1",
+        "tools/Uninstall.ps1"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -4634,7 +4664,8 @@
       "ForTheTeam >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.16.1",
+      "OctoPack >= 3.6.5"
     ]
   },
   "packageFolders": {
@@ -4691,6 +4722,12 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.16.1, )"
+          },
+          "OctoPack": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.6.5, )"
           }
         },
         "imports": [

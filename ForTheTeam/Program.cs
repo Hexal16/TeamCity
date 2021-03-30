@@ -1,13 +1,35 @@
 ﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace ForTheTeam
 {
     public class Program
     {
-        static void Main(string[] args)
+        
+        public static void Main()
+        {
+            MainAsync().GetAwaiter().GetResult();
+        }
+        static async Task MainAsync()
         {
             Console.WriteLine("Hello TeamCity! Enter you name");
-            new Program().Start();
+             new Program().Start();
+            var p = new Program();
+            await p.tet();
+        }
+
+        public async Task<bool> tet()
+        {
+            var link =
+                "https://mans.tet.lv/myltc/api/electricity/chart?object_id=43Z-STO00887698F&start_date=2021-02-01&type=D&client_id=43X-STP00827661I&display=kWh";
+
+            var http = new HttpClient();
+            var res = await http.GetStringAsync(link);
+            Console.WriteLine("Res:");
+            Console.WriteLine(res);
+
+            return true;
         }
 
         public void Start()
