@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eVC+HlvZJnX3F7wWxmBZ3AVSgJ+ghkVyN180c9Z7jP+/zRRr+1I2+2xzGxuTVkD7r4nFsEtUrMbXVgZTrE1VGw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gerda\\.nuget\\packages\\octopack\\3.6.5\\octopack.3.6.5.nupkg.sha512"
+  ],
+  "logs": []
+}

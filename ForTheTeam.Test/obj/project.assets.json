@@ -4674,11 +4674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+      "projectUniqueName": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
       "projectName": "ForTheTeam.Test",
-      "projectPath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+      "projectPath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
       "packagesPath": "C:\\Users\\Gerda\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\obj\\",
+      "outputPath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gerda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4695,8 +4695,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
-              "projectPath": "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj"
+            "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
+              "projectPath": "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj"
             }
           }
         }

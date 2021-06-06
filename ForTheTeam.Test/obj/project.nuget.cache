@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMVIIAK3OpJl/xPcxXKb+aoCBTAjXF9/fWSMtCGVceO6ve6tZ6BDQitXhBA7wJawbXGAP3Np3U1RuLZXMB3PPw==",
+  "dgSpecHash": "1IO5NWy9DZDwnIWcuwic6Ue6yEbzM9+TI6FRckqAbehBz1aCPXN/7DGkDVrU+CBhd5icmOiDgqV0HgM9mlhL3Q==",
   "success": true,
-  "projectFilePath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+  "projectFilePath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gerda\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
