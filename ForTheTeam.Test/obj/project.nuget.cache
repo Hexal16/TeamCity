@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XR6c6hV0Arhy8N+2AgpxvcOQ/qSALycH9+S9+M2uDUzybt+487hoMJgMN4YY+ugeAfa9HhsT7+K2CEHZ2PeUlw==",
+  "dgSpecHash": "1IO5NWy9DZDwnIWcuwic6Ue6yEbzM9+TI6FRckqAbehBz1aCPXN/7DGkDVrU+CBhd5icmOiDgqV0HgM9mlhL3Q==",
   "success": true,
-  "projectFilePath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+  "projectFilePath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gerda\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -19,6 +19,7 @@
     "C:\\Users\\Gerda\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\Gerda\\.nuget\\packages\\octopack\\3.6.5\\octopack.3.6.5.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\Gerda\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj": {}
+    "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj": {}
   },
   "projects": {
-    "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj": {
+    "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+        "projectUniqueName": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
         "projectName": "ForTheTeam.Test",
-        "projectPath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
+        "projectPath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\ForTheTeam.Test.csproj",
         "packagesPath": "C:\\Users\\Gerda\\.nuget\\packages\\",
-        "outputPath": "D:\\Test\\TeamCity\\ForTheTeam.Test\\obj\\",
+        "outputPath": "D:\\Projects\\TeamCity\\ForTheTeam.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gerda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
-                "projectPath": "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj"
+              "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
+                "projectPath": "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj"
               }
             }
           }
@@ -55,6 +55,12 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.16.1, )"
+            },
+            "OctoPack": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.5, )"
             }
           },
           "imports": [
@@ -76,14 +82,14 @@
         }
       }
     },
-    "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
+    "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj",
+        "projectUniqueName": "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj",
         "projectName": "ForTheTeam",
-        "projectPath": "D:\\Test\\TeamCity\\ForTheTeam\\ForTheTeam.csproj",
+        "projectPath": "D:\\Projects\\TeamCity\\ForTheTeam\\ForTheTeam.csproj",
         "packagesPath": "C:\\Users\\Gerda\\.nuget\\packages\\",
-        "outputPath": "D:\\Test\\TeamCity\\ForTheTeam\\obj\\",
+        "outputPath": "D:\\Projects\\TeamCity\\ForTheTeam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gerda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,6 +117,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "OctoPack": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
